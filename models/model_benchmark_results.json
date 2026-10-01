@@ -1,0 +1,40 @@
+{
+    "best_model": "randomforest_model",
+    "benchmark": {
+        "randomforest_model": {
+            "accuracy": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "roc_auc": 1.0
+        },
+        "xgboost_model": {
+            "accuracy": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "roc_auc": 1.0
+        },
+        "isolationforest_model": {
+            "accuracy": 0.74,
+            "precision": 0.6579,
+            "recall": 1.0,
+            "f1_score": 0.7937,
+            "roc_auc": 1.0
+        },
+        "lightgbm_model": {
+            "accuracy": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "roc_auc": 1.0
+        },
+        "catboost_model": {
+            "accuracy": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "roc_auc": 1.0
+        }
+    }
+}

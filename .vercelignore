@@ -1,0 +1,8 @@
+backend/
+ml_pipeline/
+catboost_info/
+Datasets/
+*.db
+__pycache__/
+node_modules/
+*.log

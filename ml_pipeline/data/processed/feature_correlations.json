@@ -1,0 +1,17 @@
+{
+    "cpu_spike_ratio": 0.9723436241060719,
+    "file_modification_entropy_avg": 0.9693953816248461,
+    "suspicious_extension_changed": 0.9531285390072226,
+    "entropy": 0.9152282743480616,
+    "file_rename_rate_per_sec": 0.9051880861256293,
+    "shadow_copies_deleted": 0.8903691709998199,
+    "registry_run_modified": 0.8142613146095058,
+    "suspicious_imports": 0.7839274023208415,
+    "network_c2_connections": 0.7803320937771322,
+    "tls_callbacks_count": 0.41162150905862493,
+    "num_sections": 0.34855809441997077,
+    "debug_size": -0.6117672541880393,
+    "file_size_kb": -0.6128985810406467,
+    "memory_consumption_mb": -0.7037276069469942,
+    "has_digital_signature": -0.7804200228426574
+}

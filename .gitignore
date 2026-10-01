@@ -1,0 +1,36 @@
+# Environments
+.venv/
+venv/
+env/
+.env
+
+# Dependencies & Build Outputs
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+build/
+
+# Python Cache & Bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+catboost_info/
+
+# Logs & Databases
+*.log
+ransomware_defender.db
+*.sqlite3
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Large Datasets (>50MB)
+Datasets/*.csv
+Datasets/*.xlsx
+!Datasets/README.md

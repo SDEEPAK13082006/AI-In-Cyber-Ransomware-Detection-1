@@ -1,0 +1,257 @@
+{
+    "total_samples": 5000,
+    "benign_samples": 2500,
+    "ransomware_samples": 2500,
+    "class_ratio": 0.5,
+    "family_breakdown": {
+        "Benign": 2500,
+        "Maze": 433,
+        "Ryuk": 427,
+        "REvil": 426,
+        "Cerber": 409,
+        "WannaCry": 408,
+        "LockBit": 397
+    },
+    "feature_comparisons": {
+        "file_size_kb": {
+            "benign": {
+                "mean": 1508.6365,
+                "std": 774.4147,
+                "median": 1514.895,
+                "min": 20.0,
+                "max": 4389.08
+            },
+            "ransomware": {
+                "mean": 602.0569,
+                "std": 289.1018,
+                "median": 590.345,
+                "min": 10.0,
+                "max": 1635.56
+            }
+        },
+        "entropy": {
+            "benign": {
+                "mean": 4.8111,
+                "std": 0.8033,
+                "median": 4.7834,
+                "min": 2.1364,
+                "max": 6.8
+            },
+            "ransomware": {
+                "mean": 7.5443,
+                "std": 0.2811,
+                "median": 7.5598,
+                "min": 6.7,
+                "max": 7.99
+            }
+        },
+        "num_sections": {
+            "benign": {
+                "mean": 4.4996,
+                "std": 0.8118,
+                "median": 5.0,
+                "min": 3.0,
+                "max": 6.0
+            },
+            "ransomware": {
+                "mean": 5.7952,
+                "std": 2.3264,
+                "median": 5.0,
+                "min": 2.0,
+                "max": 9.0
+            }
+        },
+        "has_digital_signature": {
+            "benign": {
+                "mean": 0.8572,
+                "std": 0.3499,
+                "median": 1.0,
+                "min": 0.0,
+                "max": 1.0
+            },
+            "ransomware": {
+                "mean": 0.0784,
+                "std": 0.2689,
+                "median": 0.0,
+                "min": 0.0,
+                "max": 1.0
+            }
+        },
+        "suspicious_imports": {
+            "benign": {
+                "mean": 0.4032,
+                "std": 0.6293,
+                "median": 0.0,
+                "min": 0.0,
+                "max": 4.0
+            },
+            "ransomware": {
+                "mean": 4.2408,
+                "std": 2.0554,
+                "median": 4.0,
+                "min": 0.0,
+                "max": 12.0
+            }
+        },
+        "tls_callbacks_count": {
+            "benign": {
+                "mean": 0.0528,
+                "std": 0.2237,
+                "median": 0.0,
+                "min": 0.0,
+                "max": 1.0
+            },
+            "ransomware": {
+                "mean": 0.5012,
+                "std": 0.6656,
+                "median": 0.0,
+                "min": 0.0,
+                "max": 2.0
+            }
+        },
+        "debug_size": {
+            "benign": {
+                "mean": 50.2992,
+                "std": 36.769,
+                "median": 56.0,
+                "min": 0.0,
+                "max": 112.0
+            },
+            "ransomware": {
+                "mean": 6.9552,
+                "std": 14.8059,
+                "median": 0.0,
+                "min": 0.0,
+                "max": 56.0
+            }
+        },
+        "shadow_copies_deleted": {
+            "benign": {
+                "mean": 0.0,
+                "std": 0.0,
+                "median": 0.0,
+                "min": 0.0,
+                "max": 0.0
+            },
+            "ransomware": {
+                "mean": 0.8844,
+                "std": 0.3198,
+                "median": 1.0,
+                "min": 0.0,
+                "max": 1.0
+            }
+        },
+        "registry_run_modified": {
+            "benign": {
+                "mean": 0.0216,
+                "std": 0.1454,
+                "median": 0.0,
+                "min": 0.0,
+                "max": 1.0
+            },
+            "ransomware": {
+                "mean": 0.8264,
+                "std": 0.3788,
+                "median": 1.0,
+                "min": 0.0,
+                "max": 1.0
+            }
+        },
+        "file_rename_rate_per_sec": {
+            "benign": {
+                "mean": 0.2029,
+                "std": 0.1955,
+                "median": 0.14,
+                "min": 0.0,
+                "max": 1.52
+            },
+            "ransomware": {
+                "mean": 45.055,
+                "std": 14.8929,
+                "median": 45.455,
+                "min": 5.0,
+                "max": 90.98
+            }
+        },
+        "file_modification_entropy_avg": {
+            "benign": {
+                "mean": 4.196,
+                "std": 0.5972,
+                "median": 4.1972,
+                "min": 1.7612,
+                "max": 6.5
+            },
+            "ransomware": {
+                "mean": 7.6894,
+                "std": 0.1869,
+                "median": 7.697,
+                "min": 7.0496,
+                "max": 7.99
+            }
+        },
+        "suspicious_extension_changed": {
+            "benign": {
+                "mean": 0.0,
+                "std": 0.0,
+                "median": 0.0,
+                "min": 0.0,
+                "max": 0.0
+            },
+            "ransomware": {
+                "mean": 18.9424,
+                "std": 4.2528,
+                "median": 19.0,
+                "min": 7.0,
+                "max": 35.0
+            }
+        },
+        "cpu_spike_ratio": {
+            "benign": {
+                "mean": 0.1517,
+                "std": 0.0715,
+                "median": 0.1488,
+                "min": 0.05,
+                "max": 0.4022
+            },
+            "ransomware": {
+                "mean": 0.8481,
+                "std": 0.0942,
+                "median": 0.8506,
+                "min": 0.4919,
+                "max": 1.0
+            }
+        },
+        "memory_consumption_mb": {
+            "benign": {
+                "mean": 119.4761,
+                "std": 49.0644,
+                "median": 118.815,
+                "min": 15.0,
+                "max": 343.95
+            },
+            "ransomware": {
+                "mean": 45.617,
+                "std": 19.3363,
+                "median": 45.48,
+                "min": 8.0,
+                "max": 114.9
+            }
+        },
+        "network_c2_connections": {
+            "benign": {
+                "mean": 0.1028,
+                "std": 0.3038,
+                "median": 0.0,
+                "min": 0.0,
+                "max": 1.0
+            },
+            "ransomware": {
+                "mean": 1.7564,
+                "std": 0.8867,
+                "median": 2.0,
+                "min": 1.0,
+                "max": 4.0
+            }
+        }
+    }
+}

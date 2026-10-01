@@ -1,0 +1,82 @@
+[
+    {
+        "feature": "composite_entropy_risk",
+        "mean_abs_shap": 0.0939
+    },
+    {
+        "feature": "file_rename_rate_per_sec",
+        "mean_abs_shap": 0.0758
+    },
+    {
+        "feature": "suspicious_extension_changed",
+        "mean_abs_shap": 0.0746
+    },
+    {
+        "feature": "behavioral_velocity_score",
+        "mean_abs_shap": 0.069
+    },
+    {
+        "feature": "file_modification_entropy_avg",
+        "mean_abs_shap": 0.0584
+    },
+    {
+        "feature": "cpu_spike_ratio",
+        "mean_abs_shap": 0.0504
+    },
+    {
+        "feature": "entropy",
+        "mean_abs_shap": 0.03
+    },
+    {
+        "feature": "system_sabotage_index",
+        "mean_abs_shap": 0.0139
+    },
+    {
+        "feature": "shadow_copies_deleted",
+        "mean_abs_shap": 0.013
+    },
+    {
+        "feature": "resource_intensity_ratio",
+        "mean_abs_shap": 0.0104
+    },
+    {
+        "feature": "network_risk_factor",
+        "mean_abs_shap": 0.0065
+    },
+    {
+        "feature": "network_c2_connections",
+        "mean_abs_shap": 0.0045
+    },
+    {
+        "feature": "memory_consumption_mb",
+        "mean_abs_shap": 0.0014
+    },
+    {
+        "feature": "num_sections",
+        "mean_abs_shap": 0.0006
+    },
+    {
+        "feature": "file_size_kb",
+        "mean_abs_shap": 0.0
+    },
+    {
+        "feature": "has_digital_signature",
+        "mean_abs_shap": 0.0
+    },
+    {
+        "feature": "suspicious_imports",
+        "mean_abs_shap": 0.0
+    },
+    {
+        "feature": "tls_callbacks_count",
+        "mean_abs_shap": 0.0
+    },
+    {
+        "feature": "debug_size",
+        "mean_abs_shap": 0.0
+    },
+    {
+        "feature": "registry_run_modified",
+        "mean_abs_shap": 0.0
+    }
+]

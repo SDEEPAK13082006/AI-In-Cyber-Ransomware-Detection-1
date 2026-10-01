@@ -1,0 +1,22 @@
+[
+    "file_size_kb",
+    "entropy",
+    "num_sections",
+    "has_digital_signature",
+    "suspicious_imports",
+    "tls_callbacks_count",
+    "debug_size",
+    "shadow_copies_deleted",
+    "registry_run_modified",
+    "file_rename_rate_per_sec",
+    "file_modification_entropy_avg",
+    "suspicious_extension_changed",
+    "cpu_spike_ratio",
+    "memory_consumption_mb",
+    "network_c2_connections",
+    "composite_entropy_risk",
+    "behavioral_velocity_score",
+    "system_sabotage_index",
+    "resource_intensity_ratio",
+    "network_risk_factor"
+]

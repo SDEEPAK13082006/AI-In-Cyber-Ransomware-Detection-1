@@ -1,0 +1,28 @@
+services:
+  - type: web
+    name: ransomware-detection-api
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn backend.app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - key: SECRET_KEY
+        generateValue: true
+      - key: DATABASE_URL
+        value: sqlite:///./ransomware_defender.db
+      - key: BACKEND_CORS_ORIGINS
+        value: '["https://ransomware-detection-dashboard.onrender.com"]'
+
+  - type: web
+    name: ransomware-detection-dashboard
+    runtime: static
+    buildCommand: npm ci --prefix frontend && npm run build --prefix frontend
+    staticPublishPath: frontend/dist
+    envVars:
+      - key: VITE_API_BASE_URL
+        value: https://ransomware-detection-api.onrender.com/api/v1
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
